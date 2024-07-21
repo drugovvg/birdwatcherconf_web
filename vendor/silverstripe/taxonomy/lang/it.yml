@@ -1,0 +1,27 @@
+it:
+  SilverStripe\Taxonomy\TaxonomyAdmin:
+    MENUTITLE: Tassonomie
+  SilverStripe\Taxonomy\TaxonomyTerm:
+    Category: 'Termini tassonomici'
+    CreatePermissionLabel: 'Crea termine tassonomico'
+    DeletePermissionLabel: 'Elimina un termine tassonomico e tutti i termini nidificati'
+    EditPermissionLabel: 'Modifica un termine tassonomico e tutti i termini nidificati'
+    PLURALNAME: 'Termini tassonomici'
+    PLURALS:
+      many: '{count} Termini tassonomici'
+      one: 'Un Termine tassonomico'
+      other: '{count} Termini tassonomici'
+    SINGULARNAME: 'Termine tassonomico'
+    belongs_many_many_Pages: Pagine
+    db_Name: Nome
+    db_Sort: Ordine
+    has_one_Parent: Parente
+    has_one_Type: Tipo
+  SilverStripe\Taxonomy\TaxonomyType:
+    PLURALNAME: 'Tipi Tassonomie'
+    PLURALS:
+      many: '{count} Tipi Tassonomie'
+      one: 'Un Tipo Tassonomia'
+      other: '{count} Tipi Tassonomie'
+    SINGULARNAME: 'Tipo Tassonomia'
+    db_Name: Nome

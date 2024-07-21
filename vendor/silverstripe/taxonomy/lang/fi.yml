@@ -1,0 +1,25 @@
+fi:
+  SilverStripe\Taxonomy\TaxonomyAdmin:
+    MENUTITLE: Taksonomiat
+  SilverStripe\Taxonomy\TaxonomyTerm:
+    Category: 'Taksonomia nimitys'
+    CreatePermissionLabel: 'Luo taksonomia nimitys'
+    DeletePermissionLabel: 'Poista taksonomia nimitys ja kaikki sisäkkäiset nimitykset'
+    EditPermissionLabel: 'Muokkaa taksonomia nimitystä'
+    PLURALNAME: 'Taksonomia nimitykset'
+    PLURALS:
+      one: Taksonomiatermi
+      other: '{count} Taksonomiatermiä'
+    SINGULARNAME: 'Taksonomia nimitys'
+    belongs_many_many_Pages: Sivut
+    db_Name: Nimi
+    db_Sort: Järjestä
+    has_one_Parent: Isäntä
+    has_one_Type: Tyyppi
+  SilverStripe\Taxonomy\TaxonomyType:
+    PLURALNAME: Taksonomiatyypit
+    PLURALS:
+      one: Taksonomiatyyppi
+      other: '{count} Taksonomiatyyppiä'
+    SINGULARNAME: Taksonomiatyyppi
+    db_Name: Nimi

@@ -2,7 +2,7 @@
 /.env
 #/vendor/
 #/themes/simple/
-/_resources/
-/public/_resources/
+#/_resources/
+#/public/_resources/
 /.graphql-generated/
 /public/_graphql/

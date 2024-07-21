@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  ci:
+    name: CI
+    uses: silverstripe/gha-ci/.github/workflows/ci.yml@v1
+    with:
+      extra_jobs: |
+        - composer_require_extra: silverstripe/mfa:^5
+          name_suffix: 'mfa'
+          phpunit: true
+        - composer_require_extra: silverstripe/session-manager:^2
+          name_suffix: 'session-manager'
+          phpunit: true
+        - composer_require_extra: silverstripe/subsites:^3

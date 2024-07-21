@@ -25,10 +25,15 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
     );
 
     public static $prefixLengthsPsr4 = array (
+        'p' => 
+        array (
+            'phpDocumentor\\Reflection\\' => 25,
+        ),
         'W' => 
         array (
             'Wilr\\GoogleSitemaps\\Tests\\' => 26,
             'Wilr\\GoogleSitemaps\\' => 20,
+            'Webmozart\\Assert\\' => 17,
         ),
         'U' => 
         array (
@@ -37,8 +42,11 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         ),
         'T' => 
         array (
+            'TractorCow\\SilverStripeProxyDB\\' => 31,
             'TractorCow\\Fluent\\Tests\\' => 24,
             'TractorCow\\Fluent\\' => 18,
+            'TractorCow\\ClassProxy\\Tests\\' => 28,
+            'TractorCow\\ClassProxy\\' => 22,
         ),
         'S' => 
         array (
@@ -80,6 +88,9 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
             'SilverStripe\\UserForms\\Tests\\Behat\\Context\\' => 43,
             'SilverStripe\\UserForms\\Tests\\' => 29,
             'SilverStripe\\UserForms\\' => 23,
+            'SilverStripe\\Taxonomy\\Tests\\Behat\\Context\\' => 42,
+            'SilverStripe\\Taxonomy\\Tests\\' => 28,
+            'SilverStripe\\Taxonomy\\' => 22,
             'SilverStripe\\SpamProtection\\Tests\\' => 34,
             'SilverStripe\\SpamProtection\\' => 28,
             'SilverStripe\\SiteConfig\\Tests\\' => 30,
@@ -100,6 +111,8 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
             'SilverStripe\\LoginForms\\' => 24,
             'SilverStripe\\Logging\\Tests\\' => 27,
             'SilverStripe\\Logging\\' => 21,
+            'SilverStripe\\HybridSessions\\Tests\\' => 34,
+            'SilverStripe\\HybridSessions\\' => 28,
             'SilverStripe\\GraphQL\\Tests\\' => 27,
             'SilverStripe\\GraphQL\\' => 21,
             'SilverStripe\\Framework\\Tests\\Behaviour\\' => 39,
@@ -109,6 +122,8 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
             'SilverStripe\\EventDispatcher\\' => 29,
             'SilverStripe\\ErrorPage\\Tests\\' => 29,
             'SilverStripe\\ErrorPage\\' => 23,
+            'SilverStripe\\EnvironmentCheck\\Tests\\' => 36,
+            'SilverStripe\\EnvironmentCheck\\' => 30,
             'SilverStripe\\Dev\\Tests\\' => 23,
             'SilverStripe\\Dev\\' => 17,
             'SilverStripe\\Core\\Tests\\' => 24,
@@ -123,6 +138,8 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
             'SilverStripe\\CMS\\Tests\\Behaviour\\' => 33,
             'SilverStripe\\CMS\\Tests\\' => 23,
             'SilverStripe\\CMS\\' => 17,
+            'SilverStripe\\Auditor\\Tests\\' => 27,
+            'SilverStripe\\Auditor\\' => 21,
             'SilverStripe\\Assets\\Tests\\' => 26,
             'SilverStripe\\Assets\\' => 20,
             'SilverStripe\\AssetAdmin\\Tests\\Behat\\Context\\' => 44,
@@ -141,7 +158,9 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
+            'Prophecy\\' => 9,
             'PhpParser\\' => 10,
+            'PHPStan\\PhpDocParser\\' => 21,
         ),
         'M' => 
         array (
@@ -184,6 +203,7 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
+            'Doctrine\\Deprecations\\' => 22,
             'Doctrine\\Common\\Lexer\\' => 22,
             'DeepCopy\\' => 9,
         ),
@@ -191,10 +211,22 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         array (
             'Composer\\Installers\\' => 20,
             'Composer\\CaBundle\\' => 18,
+            'CWP\\Core\\Tests\\' => 15,
+            'CWP\\Core\\' => 9,
+            'CWP\\CWP\\Tests\\' => 14,
+            'CWP\\CWP\\' => 8,
+            'CWP\\AgencyExtensions\\Tests\\' => 27,
+            'CWP\\AgencyExtensions\\' => 21,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'phpDocumentor\\Reflection\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
         'Wilr\\GoogleSitemaps\\Tests\\' => 
         array (
             0 => __DIR__ . '/..' . '/wilr/silverstripe-googlesitemaps/tests',
@@ -202,6 +234,10 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         'Wilr\\GoogleSitemaps\\' => 
         array (
             0 => __DIR__ . '/..' . '/wilr/silverstripe-googlesitemaps/src',
+        ),
+        'Webmozart\\Assert\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
         'UndefinedOffset\\NoCaptcha\\' => 
         array (
@@ -211,6 +247,10 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         array (
             0 => __DIR__ . '/..' . '/ua-parser/uap-php/src',
         ),
+        'TractorCow\\SilverStripeProxyDB\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tractorcow/silverstripe-proxy-db/src',
+        ),
         'TractorCow\\Fluent\\Tests\\' => 
         array (
             0 => __DIR__ . '/..' . '/tractorcow/silverstripe-fluent/tests/php',
@@ -218,6 +258,14 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         'TractorCow\\Fluent\\' => 
         array (
             0 => __DIR__ . '/..' . '/tractorcow/silverstripe-fluent/src',
+        ),
+        'TractorCow\\ClassProxy\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tractorcow/classproxy/tests',
+        ),
+        'TractorCow\\ClassProxy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tractorcow/classproxy/src',
         ),
         'Symfony\\Polyfill\\Php83\\' => 
         array (
@@ -372,6 +420,18 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         array (
             0 => __DIR__ . '/..' . '/silverstripe/userforms/code',
         ),
+        'SilverStripe\\Taxonomy\\Tests\\Behat\\Context\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/taxonomy/tests/behat/src',
+        ),
+        'SilverStripe\\Taxonomy\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/taxonomy/tests',
+        ),
+        'SilverStripe\\Taxonomy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/taxonomy/src',
+        ),
         'SilverStripe\\SpamProtection\\Tests\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/spamprotection/tests',
@@ -452,6 +512,14 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         array (
             0 => __DIR__ . '/..' . '/silverstripe/framework/src/Logging',
         ),
+        'SilverStripe\\HybridSessions\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/hybridsessions/tests',
+        ),
+        'SilverStripe\\HybridSessions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/hybridsessions/src',
+        ),
         'SilverStripe\\GraphQL\\Tests\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/graphql/tests',
@@ -489,6 +557,14 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         'SilverStripe\\ErrorPage\\' => 
         array (
             0 => __DIR__ . '/..' . '/silverstripe/errorpage/src',
+        ),
+        'SilverStripe\\EnvironmentCheck\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/environmentcheck/tests',
+        ),
+        'SilverStripe\\EnvironmentCheck\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/environmentcheck/src',
         ),
         'SilverStripe\\Dev\\Tests\\' => 
         array (
@@ -546,6 +622,14 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         array (
             0 => __DIR__ . '/..' . '/silverstripe/cms/code',
             1 => __DIR__ . '/..' . '/silverstripe/cms/_legacy',
+        ),
+        'SilverStripe\\Auditor\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/auditor/tests',
+        ),
+        'SilverStripe\\Auditor\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/silverstripe/auditor/code',
         ),
         'SilverStripe\\Assets\\Tests\\' => 
         array (
@@ -610,9 +694,17 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
+        'Prophecy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
+        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'PHPStan\\PhpDocParser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpstan/phpdoc-parser/src',
         ),
         'Monolog\\' => 
         array (
@@ -698,6 +790,10 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
+        'Doctrine\\Deprecations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/deprecations/lib/Doctrine/Deprecations',
+        ),
         'Doctrine\\Common\\Lexer\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/lexer/src',
@@ -713,6 +809,30 @@ class ComposerStaticInitf73c716c6c95b927e7c2bbb4085d0b13
         'Composer\\CaBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/ca-bundle/src',
+        ),
+        'CWP\\Core\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cwp/cwp-core/tests',
+        ),
+        'CWP\\Core\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cwp/cwp-core/src',
+        ),
+        'CWP\\CWP\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cwp/cwp/tests',
+        ),
+        'CWP\\CWP\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cwp/cwp/src',
+        ),
+        'CWP\\AgencyExtensions\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cwp/agency-extensions/tests',
+        ),
+        'CWP\\AgencyExtensions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cwp/agency-extensions/src',
         ),
     );
 
