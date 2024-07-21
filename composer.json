@@ -18,13 +18,21 @@
         "symfony/mailer": "^6.4",
         "cwp/starter-theme": "^4.1",
         "loveduckie/silverstripe-json-ld-structured-data": "4.x-dev",
-        "undefinedoffset/silverstripe-nocaptcha": "^2.4"
+        "undefinedoffset/silverstripe-nocaptcha": "^2.4",
+        "cwp/watea-theme": "^4.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.6"
     },
     "extra": {
         "expose": [
+            "themes/simple/css",
+            "themes/simple/javascript",
+            "themes/simple/images",
+            "themes/simple/webfonts",
+            "themes/starter/dist",
+            "themes/starter/ico",
+            "themes/starter/images",
             "themes/birdwatcherconf/css",
             "themes/birdwatcherconf/ico"
         ],

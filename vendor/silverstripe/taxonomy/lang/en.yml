@@ -1,0 +1,26 @@
+en:
+  SilverStripe\Taxonomy\TaxonomyAdmin:
+    MENUTITLE: Taxonomies
+  SilverStripe\Taxonomy\TaxonomyTerm:
+    Category: 'Taxonomy terms'
+    CreatePermissionLabel: 'Create a taxonomy term'
+    DeletePermissionLabel: 'Delete a taxonomy term and all nested terms'
+    EditPermissionLabel: 'Edit a taxonomy term'
+    PLURALNAME: 'Taxonomy Terms'
+    PLURALS:
+      one: 'A Taxonomy Term'
+      other: '{count} Taxonomy Terms'
+    SINGULARNAME: 'Taxonomy Term'
+    belongs_many_many_Pages: Pages
+    db_Name: Name
+    db_Sort: Sort
+    has_many_Children: Children
+    has_one_Parent: Parent
+    has_one_Type: Type
+  SilverStripe\Taxonomy\TaxonomyType:
+    PLURALNAME: 'Taxonomy Types'
+    PLURALS:
+      one: 'A Taxonomy Type'
+      other: '{count} Taxonomy Types'
+    SINGULARNAME: 'Taxonomy Type'
+    db_Name: Name

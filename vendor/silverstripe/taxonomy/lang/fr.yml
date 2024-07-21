@@ -1,0 +1,6 @@
+fr:
+  SilverStripe\Taxonomy\TaxonomyTerm:
+    db_Name: Nom
+    db_Sort: Tri
+  SilverStripe\Taxonomy\TaxonomyType:
+    db_Name: Nom

@@ -1,0 +1,22 @@
+fr:
+  AssetTableField:
+    PAGES: page(s)
+  BasePage:
+    ColumnTitle: Titre
+    DESCRIPTION: 'Generic content page'
+    PLURALNAME: 'Base Pages'
+    TagsTabTitle: Tags
+  CWP\AgencyExtensions\Extensions\CWPSiteConfigExtension:
+    AddThisField: 'ID du profil AddThis'
+  CWP\AgencyExtensions\Extensions\CarouselPageExtension:
+    DESCRIPTION: 'Generic content page'
+    Title: Titre
+  CwpSearchPage:
+    DESCRIPTION: 'Generic content page'
+    PLURALNAME: 'Base Pages'
+  DateUpdatePage:
+    AuthorFieldLabel: Auteur
+  DatedUpdateHolder:
+    DESCRIPTION: 'Generic content page'
+  DatedUpdatePage:
+    DESCRIPTION: 'Generic content page'
