@@ -1,0 +1,8 @@
+---
+Name: mailer-project
+After: 'mailer'
+---
+SilverStripe\Core\Injector\Injector:
+  Symfony\Component\Mailer\Transport\TransportInterface:
+    constructor:
+      dsn: 'smtp://drugovv@gmail.com:pdghyftrahegscen@smtp.gmail.com:465'

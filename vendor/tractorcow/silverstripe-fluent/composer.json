@@ -1,0 +1,76 @@
+{
+    "name": "tractorcow/silverstripe-fluent",
+    "description": "Simple localisation for Silverstripe",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "localisation",
+        "localization",
+        "translation",
+        "language",
+        "locale",
+        "multilingual",
+        "translatable",
+        "i18n",
+        "internationalisation",
+        "internationalization"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Damian Mooyman",
+            "email": "damian.mooyman@gmail.com"
+        },
+        {
+            "name": "Robbie Averill",
+            "email": "robbie@silverstripe.com"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/tractorcow-farm/silverstripe-fluent/issues"
+    },
+    "require": {
+        "php": "^8.1",
+        "silverstripe/vendor-plugin": "^2",
+        "silverstripe/framework": "^5",
+        "silverstripe/admin": "^2",
+        "silverstripe/versioned": "^2",
+        "symbiote/silverstripe-gridfieldextensions": "^4",
+        "ext-json": "*"
+    },
+    "suggest": {
+        "silverstripe/cms": "Localise pages"
+    },
+    "require-dev": {
+        "silverstripe/recipe-testing": "^3",
+        "silverstripe/standards": "^1",
+        "phpstan/extension-installer": "^1.3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "7.x-dev"
+        },
+        "expose": [
+            "client/dist"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "TractorCow\\Fluent\\": "src/",
+            "TractorCow\\Fluent\\Tests\\": "tests/php/"
+        }
+    },
+    "scripts": {
+        "lint": "phpcs src/ tests/php/",
+        "lint-clean": "phpcbf src/ tests/php/"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/recipe-plugin": true,
+            "silverstripe/vendor-plugin": true
+        }
+    }
+}

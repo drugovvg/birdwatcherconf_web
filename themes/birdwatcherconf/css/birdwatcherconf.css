@@ -1,0 +1,70 @@
+.middleColumn {
+    max-height: 215px; /* Set the desired height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 15px; /* Add padding to avoid cutting off the scrollbar */
+    font-size: 14px; /* Smaller text size */
+    color: #666; /* Grey text color */
+}
+.middleColumn p,
+.middleColumn h2,
+.middleColumn h3,
+.middleColumn h4 {
+    font-size: 14px; /* Smaller text size */
+}
+@media (max-width: 768px) {
+    .middleColumn {
+        font-size: 12px; /* Even smaller text size for mobile devices */
+    }
+    .middleColumn p,
+    .middleColumn h2,
+    .middleColumn h3,
+    .middleColumn h4 {
+        font-size: 12px; /* Smaller text size */
+    }
+}
+
+/* Default style for breadcrumbs */
+.breadcrumbs-nav {
+    display: flex;
+}
+
+/* Hide breadcrumbs on mobile view */
+@media (max-width: 768px) {
+    .breadcrumbs-nav {
+        display: none;
+    }
+}
+
+/* Default styles */
+.page-header h1 {
+    font-size: 2em; /* Adjust this to your default font size */
+}
+
+.error {
+    color: #dc3545;
+    font-size: 80%;
+    margin-top: .25rem;
+    width: 100%;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+
+    .page-header {
+        margin: unset;
+    }
+
+    .page-header h1 {
+        font-size: 1.2em; /* Adjust this to your desired mobile font size */
+    }
+
+    .page-utilities {
+        display: none;
+    }
+
+    .grecaptcha-badge {
+        visibility: hidden;
+    }
+
+
+}
